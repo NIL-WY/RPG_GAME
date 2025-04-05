@@ -1,0 +1,2930 @@
+fileFormatVersion: 2
+guid: 573111645179d40449ee7f3a8311f616
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Desire+(4)-export_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1364
+        width: 60
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c31bcdfb6dc18439a7d4801a253e91
+      internalID: 2052288538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1364
+        width: 60
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d10d7e9a0687664c8c1651571cabe10
+      internalID: 1809581739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_2
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1364
+        width: 60
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d392f45cd476d34e954cbe1fb2d8ed0
+      internalID: -1528777214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_3
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1364
+        width: 60
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b81ffe8382c1e49a8c794fd0926430
+      internalID: -1799361103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_4
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1355
+        width: 57
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c181410203e65af46b250db0370d3fb4
+      internalID: 1026595105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_5
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1355
+        width: 57
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd3bf29d081abb4ea2e6a3ac32494ca
+      internalID: 2043002907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_6
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1355
+        width: 57
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38d448a84ce7864db52a81c8422ca8e
+      internalID: 1644061394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_7
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 1355
+        width: 57
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dc63fc0fae26945b232895eb1462d6
+      internalID: 730935552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_8
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1352
+        width: 57
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499fc4e674b532e40a4e1180ec4c3a0b
+      internalID: 105567061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_9
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 1352
+        width: 63
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0b44e5b412aac45932cce36efc25c6
+      internalID: -1754803027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_10
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 1352
+        width: 57
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27600eef4baff8b43b5c4815720e5b7e
+      internalID: -234146698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_11
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 1352
+        width: 63
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2a461bc0e927c499b751df168bbf3f
+      internalID: -1743814902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_12
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 1370
+        width: 93
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1518566df5f32ed47b5bc6079f11db2a
+      internalID: 2083053808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_13
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 1373
+        width: 93
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e168e72f9fcca45aab228660ac9b51
+      internalID: 1151598628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_14
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 1373
+        width: 93
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d4a2a08275eeb4890336c7b2a8b95f
+      internalID: 292336560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_15
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 1373
+        width: 93
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cf7b290eb18d04eb72d5d189816ddd
+      internalID: -1520154247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1169
+        width: 75
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3faf81370e69644a25efc0f7cf475e
+      internalID: 2080590465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_17
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1169
+        width: 75
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62817d2fdba58a843a49c1fd0279f09e
+      internalID: -375251932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_18
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1169
+        width: 75
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720861efea14d854e9f0d899e0b6d80a
+      internalID: 1825543693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_19
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1169
+        width: 75
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ad902d44a8b98418f411e49f5bbeaa
+      internalID: -110804981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_20
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1172
+        width: 75
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe8eed52e2335f4fb91db88525430c3
+      internalID: 1948171334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_21
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1166
+        width: 78
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abfee6fbdddab6449f23cf88c316f4a
+      internalID: 2051252967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_22
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1172
+        width: 78
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ee7fb11b2450a45b0348fd648c3ec6
+      internalID: 839766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_23
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1166
+        width: 75
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83637e90ef2fd6a43b57f2dbc2f51a8b
+      internalID: -1156557291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_24
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1181
+        width: 84
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a331dff3b5dad04d8ad0232828df8fb
+      internalID: -301291124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_25
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1172
+        width: 81
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ff7a9630ca4f244b605be8139532b0
+      internalID: -1088056132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_26
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 1178
+        width: 84
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f9f91dda9e3604f82c77c6796b43ff
+      internalID: 285994360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_27
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 1172
+        width: 87
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e2e7241dacad44199f5d25f1532ba2
+      internalID: -2141986835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_28
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 1172
+        width: 105
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699d264ac6d063e4682a025434320a36
+      internalID: -1147138529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_29
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 1175
+        width: 99
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e773a5268afa9d6489f72f74e29bbde8
+      internalID: -495070920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_30
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 1175
+        width: 99
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2735fec73b82742992b270c825819b
+      internalID: 820877924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_31
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 1175
+        width: 99
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b4e484b86c82d488d2233ff30cc50a
+      internalID: 610521742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_32
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 977
+        width: 75
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f88812ca668b64ba1c482f74981112
+      internalID: 1551138443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_33
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 977
+        width: 75
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5beaeabc592bd814681fc62ebb991396
+      internalID: 1232007313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_34
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 977
+        width: 75
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66abdec72c90d084eafd6482613a9427
+      internalID: 1398319932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_35
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 977
+        width: 75
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a7c7c97a1adfd478ae233cc995b305
+      internalID: -1593599161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_36
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 980
+        width: 75
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d03f357c415034ba08ebcd28cf7a12
+      internalID: -1953754328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_37
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 974
+        width: 78
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221adfc4d1f116c46ad509593069e083
+      internalID: -988227782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_38
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 980
+        width: 78
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d269343b82f7e46876741573f015d9
+      internalID: -1200362156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_39
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 971
+        width: 75
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b7a65433049b54bb6732e0ea472b8b
+      internalID: 1158123627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_40
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 989
+        width: 84
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd97071e149a3284b9d20214280f92e4
+      internalID: 1076997925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_41
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 980
+        width: 81
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bec0c9c6e84f643aaa4907c3ce5bf9
+      internalID: 1358331049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_42
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 986
+        width: 84
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa159d7f20033e74aa9597cf79914048
+      internalID: 2028547733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_43
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 980
+        width: 87
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26af074fbb4a65449decd64db0079c1
+      internalID: -2026974924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_44
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 980
+        width: 105
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc1811c0025fc242bec4f5c87cc8997
+      internalID: -663770882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_45
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 983
+        width: 99
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9cdea0a586c5f48b4890cf24181f54
+      internalID: -1326052035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_46
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 983
+        width: 99
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a07f8369ac0074695897ef79c01037
+      internalID: -153259982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_47
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 983
+        width: 99
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb1b8ca417f5b941b8325dd7172b062
+      internalID: 164900920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_48
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 788
+        width: 57
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4f9c733e8a8c34cbbf494c64ef86ab
+      internalID: -214225247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_49
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 788
+        width: 57
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5792ef9b2f2bac7488db9d5c1c50cecf
+      internalID: -180268894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_50
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 788
+        width: 57
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f598cf1bb1eebc14c8b18b9fcfd40cc8
+      internalID: -1690515416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_51
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 788
+        width: 57
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef1f5ce63b81b64c83afeb637598eed
+      internalID: 1577159690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_52
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 782
+        width: 57
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853259f1cb4236d468a9b8f58dc603ee
+      internalID: -1233614830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_53
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 785
+        width: 63
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c081a1abf51e944b27e3c8f764a869
+      internalID: 1037882290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_54
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 782
+        width: 57
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e5f5bec030f2841a6e02b11073cc4d
+      internalID: -1949487665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_55
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 785
+        width: 63
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82df0470ce9586546998a59383681b5b
+      internalID: -248361182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_56
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 776
+        width: 57
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfd1b3d47151ea4286c8702ebabf577
+      internalID: 1194149900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_57
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 776
+        width: 60
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a01b60e211eb84c937f24c3fa26f4e
+      internalID: 881669356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_58
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 776
+        width: 57
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f121988854d5c134eb41cbf8a9a82103
+      internalID: 1733686778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_59
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 773
+        width: 60
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e84a7c7d1f0d24193fdc0d5df89a2f
+      internalID: 2020238409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_60
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 779
+        width: 78
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ebff633186ee046a70edfc2fdf261d
+      internalID: -1928120966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_61
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 785
+        width: 78
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2427323ed22834896b2c05e6cc8f7c
+      internalID: 997331215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_62
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 785
+        width: 78
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638ce55b9acf7f14aa8cc61bb3c62fba
+      internalID: 130306998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_63
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 785
+        width: 78
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e88075e69c82a6458dcbca8a1279d9c
+      internalID: 32463241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_64
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 593
+        width: 63
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf5ca88706addd4db2599f0ad51ff14
+      internalID: 1838020466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_65
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 593
+        width: 63
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecda5bd213b3faa4e877bae67700ce1b
+      internalID: -1991921306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_66
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 593
+        width: 63
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a602ba27165854c8033a0d44ca734d
+      internalID: 1633144262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_67
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 593
+        width: 63
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90deaa2578af033418a33e7d486958a8
+      internalID: 2103772363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_68
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 593
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dfb4323d1a47f42bfc603b6ea50e4a
+      internalID: -32998590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_69
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 590
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1774a1f810f6d41b221e462186c4a0
+      internalID: -424442768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_70
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 593
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0880539fe6ec74f83d0accd9ed5fb8
+      internalID: 388951181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_71
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 593
+        width: 66
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e602051eb173f41a95f8f4f00fc030
+      internalID: -1272991133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_72
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 599
+        width: 69
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c4a949aae250149b5bb5c5b1c637aa
+      internalID: -1639421426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_73
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 584
+        width: 72
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5118bbcedbcd4864cb8d7544f99c14ae
+      internalID: 462586399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_74
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 602
+        width: 72
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67ff54497b65184bac0b781a58b96a5
+      internalID: -1254991509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_75
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 584
+        width: 72
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9201dde071cf0ea44869fb461deafce6
+      internalID: 1712341591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_76
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 596
+        width: 63
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128f3266eaed88347b5af65dab462fe1
+      internalID: 1268801770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_77
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 590
+        width: 57
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d808c716fdaa248bec7deffe97bcd8
+      internalID: -1401318052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_78
+      rect:
+        serializedVersion: 2
+        x: 2756
+        y: 596
+        width: 63
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b684d661f5908c43acbe6857c9d4b2f
+      internalID: -1426685964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_79
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 590
+        width: 57
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ad0d50b6b1b064fa3f09d18c94ae06
+      internalID: 1776179749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_80
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 401
+        width: 63
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72ff0db143d7f244a437b764d30846b
+      internalID: 1387385230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_81
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 401
+        width: 63
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6818274e5b201e459d4ffd562ca20b1
+      internalID: -700172859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_82
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 401
+        width: 63
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2fb1b71fe025343838d78090ed3910
+      internalID: 1549606473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_83
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 401
+        width: 63
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23789bf3b9ab7c24c91328c5a24ec063
+      internalID: 754890855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_84
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 401
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c9eb96697ab834aa0effb009b366c0
+      internalID: -1253076283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_85
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 398
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b35dc924dc5744487db2144be69ceb
+      internalID: 1429747724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_86
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 401
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7957f309e57146c458d582602213576c
+      internalID: 796780358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_87
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 401
+        width: 66
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4130c7af8f934349b30518f040199e8
+      internalID: 1982126053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_88
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 407
+        width: 69
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffac82a39e16e894e86e3e3e09abbaf3
+      internalID: 880922684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_89
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 392
+        width: 72
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82cc6dba6f2928428c8453e09488a45
+      internalID: 1489728689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_90
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 410
+        width: 72
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b13ed04e3d73374d912e9ed638f26f9
+      internalID: -2087181745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_91
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 392
+        width: 72
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207177cadee54b947be449e60b49f94d
+      internalID: -360020932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_92
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 404
+        width: 60
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d31a25b8257d644801935530b8c2a5
+      internalID: -948204185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_93
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 407
+        width: 69
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31120cab154fba34d92387a39a087de0
+      internalID: 1780735230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_94
+      rect:
+        serializedVersion: 2
+        x: 2756
+        y: 404
+        width: 66
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5758c95f2f6c541a00c75546dc79ea
+      internalID: 648920074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_95
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 407
+        width: 51
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8be8b92f04fcf14a9b157d970682171
+      internalID: 784626005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_96
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 209
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd2026174068ea4f8ecafb2ae491bd5
+      internalID: 664707141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_97
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 209
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e84fc9f37f2957488c4033e872aa8f0
+      internalID: 388023283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_98
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 209
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008f19fc033a5d242964d46f561d020d
+      internalID: 1052110879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_99
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 209
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa15febbc4f2264e9949ff708d3375a
+      internalID: -1596354361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_100
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 206
+        width: 66
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef4abe36a9193b409df8d3c1550fb5b
+      internalID: 1907825310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_101
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 209
+        width: 63
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d524be7c88900a44e96209bce57b68b9
+      internalID: 1597744217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_102
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 212
+        width: 63
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7b6ebfebb533f42bf143d01383bcf8
+      internalID: 20738787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_103
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 206
+        width: 69
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b2e464c9a169e458dd5778f5e1a23d
+      internalID: 297633395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_104
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 203
+        width: 72
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81507f5431aca2249aef75b9f6feedea
+      internalID: -1177852383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_105
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 206
+        width: 69
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f747e19e2887d3a4bac6d66d1e35bf10
+      internalID: -148648833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_106
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 206
+        width: 72
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b9fb164b205ce4e9b8a2b45371be7d
+      internalID: 217961765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_107
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 212
+        width: 72
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cf757f7127ee6438c70597c3746cd6
+      internalID: 1870555400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_108
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 212
+        width: 60
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a623291943d26b74c9e653a42c72d3ec
+      internalID: -643784424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_109
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 215
+        width: 69
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a78f9a0825c25941b0b3ac231368dce
+      internalID: 1367930105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_110
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 212
+        width: 66
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c400e0eb3eee12d439bb3926d98e0783
+      internalID: -623503299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_111
+      rect:
+        serializedVersion: 2
+        x: 2948
+        y: 215
+        width: 51
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f2207b737b57247a130e907489c40a
+      internalID: -805313298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_112
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 17
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa1553c4003569468d0974db3730fd6
+      internalID: -688795129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_113
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 17
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae4fc2dffd50054386214854ea723c2
+      internalID: -756411408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_114
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 17
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad117d95921c62e458ee7e5edb441d52
+      internalID: 1999360527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_115
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 17
+        width: 66
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d58bad6d03ade642bb04606ca0405ac
+      internalID: 790317804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_116
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 14
+        width: 66
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b901d48456bd83b4296c50f456e03917
+      internalID: -329485179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_117
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 17
+        width: 63
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b929e04b4b6fd5143be661f52701129d
+      internalID: 1554707294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_118
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 20
+        width: 63
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2023c88d23ac54fb1198dba14fe574
+      internalID: -1173031050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_119
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 14
+        width: 69
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cce94610a80954ba9038192d5c0563
+      internalID: 1792217252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_120
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 11
+        width: 72
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705a753a39489ce469d9abec6ed56769
+      internalID: -1623523648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_121
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 14
+        width: 69
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91d75ab30e44484f9c002710c065ac7
+      internalID: -409358455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_122
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 14
+        width: 72
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab6c64b9ccc25446a415edb901ffe29
+      internalID: -1911980235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_123
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 20
+        width: 72
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4481cf9e9de57146b2458c814a1f5c9
+      internalID: -91217645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_124
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 14
+        width: 57
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1057d0ccb3d7e594a93b74cfa5b94a55
+      internalID: -1813934322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_125
+      rect:
+        serializedVersion: 2
+        x: 2564
+        y: 20
+        width: 63
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1324ef15cd3f0b74aa124fe629f97c54
+      internalID: -1338679607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_126
+      rect:
+        serializedVersion: 2
+        x: 2756
+        y: 14
+        width: 57
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88772c0c55018b47a9904f342ab59a4
+      internalID: 345989449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desire+(4)-export_127
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 20
+        width: 63
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84dde0c3598aa2498bb1c1ca7185b5e
+      internalID: 179224946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ffa8200bbea4cab4faad62b688371d43
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Desire+(4)-export_0: 2052288538
+      Desire+(4)-export_1: 1809581739
+      Desire+(4)-export_10: -234146698
+      Desire+(4)-export_100: 1907825310
+      Desire+(4)-export_101: 1597744217
+      Desire+(4)-export_102: 20738787
+      Desire+(4)-export_103: 297633395
+      Desire+(4)-export_104: -1177852383
+      Desire+(4)-export_105: -148648833
+      Desire+(4)-export_106: 217961765
+      Desire+(4)-export_107: 1870555400
+      Desire+(4)-export_108: -643784424
+      Desire+(4)-export_109: 1367930105
+      Desire+(4)-export_11: -1743814902
+      Desire+(4)-export_110: -623503299
+      Desire+(4)-export_111: -805313298
+      Desire+(4)-export_112: -688795129
+      Desire+(4)-export_113: -756411408
+      Desire+(4)-export_114: 1999360527
+      Desire+(4)-export_115: 790317804
+      Desire+(4)-export_116: -329485179
+      Desire+(4)-export_117: 1554707294
+      Desire+(4)-export_118: -1173031050
+      Desire+(4)-export_119: 1792217252
+      Desire+(4)-export_12: 2083053808
+      Desire+(4)-export_120: -1623523648
+      Desire+(4)-export_121: -409358455
+      Desire+(4)-export_122: -1911980235
+      Desire+(4)-export_123: -91217645
+      Desire+(4)-export_124: -1813934322
+      Desire+(4)-export_125: -1338679607
+      Desire+(4)-export_126: 345989449
+      Desire+(4)-export_127: 179224946
+      Desire+(4)-export_13: 1151598628
+      Desire+(4)-export_14: 292336560
+      Desire+(4)-export_15: -1520154247
+      Desire+(4)-export_16: 2080590465
+      Desire+(4)-export_17: -375251932
+      Desire+(4)-export_18: 1825543693
+      Desire+(4)-export_19: -110804981
+      Desire+(4)-export_2: -1528777214
+      Desire+(4)-export_20: 1948171334
+      Desire+(4)-export_21: 2051252967
+      Desire+(4)-export_22: 839766
+      Desire+(4)-export_23: -1156557291
+      Desire+(4)-export_24: -301291124
+      Desire+(4)-export_25: -1088056132
+      Desire+(4)-export_26: 285994360
+      Desire+(4)-export_27: -2141986835
+      Desire+(4)-export_28: -1147138529
+      Desire+(4)-export_29: -495070920
+      Desire+(4)-export_3: -1799361103
+      Desire+(4)-export_30: 820877924
+      Desire+(4)-export_31: 610521742
+      Desire+(4)-export_32: 1551138443
+      Desire+(4)-export_33: 1232007313
+      Desire+(4)-export_34: 1398319932
+      Desire+(4)-export_35: -1593599161
+      Desire+(4)-export_36: -1953754328
+      Desire+(4)-export_37: -988227782
+      Desire+(4)-export_38: -1200362156
+      Desire+(4)-export_39: 1158123627
+      Desire+(4)-export_4: 1026595105
+      Desire+(4)-export_40: 1076997925
+      Desire+(4)-export_41: 1358331049
+      Desire+(4)-export_42: 2028547733
+      Desire+(4)-export_43: -2026974924
+      Desire+(4)-export_44: -663770882
+      Desire+(4)-export_45: -1326052035
+      Desire+(4)-export_46: -153259982
+      Desire+(4)-export_47: 164900920
+      Desire+(4)-export_48: -214225247
+      Desire+(4)-export_49: -180268894
+      Desire+(4)-export_5: 2043002907
+      Desire+(4)-export_50: -1690515416
+      Desire+(4)-export_51: 1577159690
+      Desire+(4)-export_52: -1233614830
+      Desire+(4)-export_53: 1037882290
+      Desire+(4)-export_54: -1949487665
+      Desire+(4)-export_55: -248361182
+      Desire+(4)-export_56: 1194149900
+      Desire+(4)-export_57: 881669356
+      Desire+(4)-export_58: 1733686778
+      Desire+(4)-export_59: 2020238409
+      Desire+(4)-export_6: 1644061394
+      Desire+(4)-export_60: -1928120966
+      Desire+(4)-export_61: 997331215
+      Desire+(4)-export_62: 130306998
+      Desire+(4)-export_63: 32463241
+      Desire+(4)-export_64: 1838020466
+      Desire+(4)-export_65: -1991921306
+      Desire+(4)-export_66: 1633144262
+      Desire+(4)-export_67: 2103772363
+      Desire+(4)-export_68: -32998590
+      Desire+(4)-export_69: -424442768
+      Desire+(4)-export_7: 730935552
+      Desire+(4)-export_70: 388951181
+      Desire+(4)-export_71: -1272991133
+      Desire+(4)-export_72: -1639421426
+      Desire+(4)-export_73: 462586399
+      Desire+(4)-export_74: -1254991509
+      Desire+(4)-export_75: 1712341591
+      Desire+(4)-export_76: 1268801770
+      Desire+(4)-export_77: -1401318052
+      Desire+(4)-export_78: -1426685964
+      Desire+(4)-export_79: 1776179749
+      Desire+(4)-export_8: 105567061
+      Desire+(4)-export_80: 1387385230
+      Desire+(4)-export_81: -700172859
+      Desire+(4)-export_82: 1549606473
+      Desire+(4)-export_83: 754890855
+      Desire+(4)-export_84: -1253076283
+      Desire+(4)-export_85: 1429747724
+      Desire+(4)-export_86: 796780358
+      Desire+(4)-export_87: 1982126053
+      Desire+(4)-export_88: 880922684
+      Desire+(4)-export_89: 1489728689
+      Desire+(4)-export_9: -1754803027
+      Desire+(4)-export_90: -2087181745
+      Desire+(4)-export_91: -360020932
+      Desire+(4)-export_92: -948204185
+      Desire+(4)-export_93: 1780735230
+      Desire+(4)-export_94: 648920074
+      Desire+(4)-export_95: 784626005
+      Desire+(4)-export_96: 664707141
+      Desire+(4)-export_97: 388023283
+      Desire+(4)-export_98: 1052110879
+      Desire+(4)-export_99: -1596354361
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

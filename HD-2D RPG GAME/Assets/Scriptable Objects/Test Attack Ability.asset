@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Test Attack Ability
   m_EditorClassIdentifier: 
   AbilityName: Rage
-  Multiplier: 10
-  ManaCost: 1
+  Multiplier: 2
+  ManaCost: 50
   userParticlePrefab: {fileID: 0}
   targetParticlePrefab: {fileID: 0}
   statusEffectDataList: []

@@ -379,13 +379,13 @@ public class BattleUIHandler : MonoBehaviour
         List<Enemy> enemies = BattleManager.Instance.enemies;
 
         // 方向键控制
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             _selectorIndex = (_selectorIndex + 1) % enemies.Count;
             _soundHandler.PlayHighBeep();
             UpdateSelectorPosition(enemies);
         }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        else if (Input.GetKeyDown(KeyCode.A))
         {
             _selectorIndex = (_selectorIndex - 1 + enemies.Count) % enemies.Count;
             _soundHandler.PlayLowBeep();

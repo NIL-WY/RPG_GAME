@@ -53,14 +53,13 @@ public class HeroAudioController : MonoBehaviour
     /// <summary>
     /// 播放随机普通攻击语音
     /// </summary>
-    /// <remarks>
-    /// 播放规则：
-    /// 1. 立即停止当前播放的音频
-    /// 2. 从配置列表中随机选择音频
-    /// 3. 使用PlayOneShot允许音效叠加
-    /// </remarks>
     public void PlayAttackVoice()
     {
+        if (_audioSource == null)
+        {
+            Debug.LogWarning("AudioSource已被销毁，无法播放攻击语音！");
+            return;
+        }
         if (_attackVoiceClips.Count == 0) return;
         _audioSource.Stop();
         int index = Random.Range(0, _attackVoiceClips.Count);
@@ -72,6 +71,11 @@ public class HeroAudioController : MonoBehaviour
     /// </summary>
     public void PlaySpecialAttackVoice()
     {
+        if (_audioSource == null)
+        {
+            Debug.LogWarning("AudioSource已被销毁，无法播放特殊攻击语音！");
+            return;
+        }
         if (_specialAttackVoiceClips.Count == 0) return;
         _audioSource.Stop();
         int index = Random.Range(0, _specialAttackVoiceClips.Count);
@@ -83,6 +87,11 @@ public class HeroAudioController : MonoBehaviour
     /// </summary>
     public void PlayHurtVoice()
     {
+        if (_audioSource == null)
+        {
+            Debug.LogWarning("AudioSource已被销毁，无法播放受伤语音！");
+            return;
+        }
         if (_hurtVoiceClips.Count == 0) return;
         _audioSource.Stop();
         int index = Random.Range(0, _hurtVoiceClips.Count);
@@ -94,6 +103,11 @@ public class HeroAudioController : MonoBehaviour
     /// </summary>
     public void PlayStartTurnVoice()
     {
+        if (_audioSource == null)
+        {
+            Debug.LogWarning("AudioSource已被销毁，无法播放回合开始语音！");
+            return;
+        }
         if (_startTurnVoiceClips.Count == 0) return;
         _audioSource.Stop();
         int index = Random.Range(0, _startTurnVoiceClips.Count);
@@ -105,6 +119,11 @@ public class HeroAudioController : MonoBehaviour
     /// </summary>
     public void PlayEvadeVoice()
     {
+        if (_audioSource == null)
+        {
+            Debug.LogWarning("AudioSource已被销毁，无法播放闪避语音！");
+            return;
+        }
         if (_evadeVoiceClips.Count == 0) return;
         _audioSource.Stop();
         int index = Random.Range(0, _evadeVoiceClips.Count);
@@ -112,24 +131,15 @@ public class HeroAudioController : MonoBehaviour
     }
 
     /// <summary>
-    /// 播放随机防御开始语音（当前存在配置检查错误）
-    /// </summary>
-    /// <remarks>
-    /// 注意：当前检查的是_startTurnVoiceClips列表，应改为_startGuardVoiceClips
-    /// </remarks>
-    public void PlayStartGuardVoice()
-    {
-        if (_startTurnVoiceClips.Count == 0) return; // 错误配置检查
-        _audioSource.Stop();
-        int index = Random.Range(0, _startGuardVoiceClips.Count);
-        _audioSource.PlayOneShot(_startGuardVoiceClips[index]);
-    }
-
-    /// <summary>
     /// 播放随机防御中语音
     /// </summary>
     public void PlayGuardVoice()
     {
+        if (_audioSource == null)
+        {
+            Debug.LogWarning("AudioSource已被销毁，无法播放防御中语音！");
+            return;
+        }
         if (_guardVoiceClips.Count == 0) return;
         _audioSource.Stop();
         int index = Random.Range(0, _guardVoiceClips.Count);
@@ -137,10 +147,32 @@ public class HeroAudioController : MonoBehaviour
     }
 
     /// <summary>
+    /// 播放随机防御开始语音
+    /// </summary>
+    public void PlayStartGuardVoice()
+    {
+        if (_audioSource == null)
+        {
+            Debug.LogWarning("AudioSource已被销毁，无法播放开始防御语音！");
+            return;
+        }
+        // 修正：检查 _startGuardVoiceClips 列表是否为空
+        if (_startGuardVoiceClips.Count == 0) return;
+        _audioSource.Stop();
+        int index = Random.Range(0, _startGuardVoiceClips.Count);
+        _audioSource.PlayOneShot(_startGuardVoiceClips[index]);
+    }
+
+    /// <summary>
     /// 播放随机自我增益语音
     /// </summary>
     public void PlaySelfBuffVoice()
     {
+        if (_audioSource == null)
+        {
+            Debug.LogWarning("AudioSource已被销毁，无法播放自我增益语音！");
+            return;
+        }
         if (_selfBuffVoiceClips.Count == 0) return;
         _audioSource.Stop();
         int index = Random.Range(0, _selfBuffVoiceClips.Count);
@@ -152,6 +184,11 @@ public class HeroAudioController : MonoBehaviour
     /// </summary>
     public void PlayItemUseVoice()
     {
+        if (_audioSource == null)
+        {
+            Debug.LogWarning("AudioSource已被销毁，无法播放道具使用语音！");
+            return;
+        }
         if (_itemUseVoiceClips.Count == 0) return;
         _audioSource.Stop();
         int index = Random.Range(0, _itemUseVoiceClips.Count);

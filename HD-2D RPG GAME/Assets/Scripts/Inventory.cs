@@ -3,21 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Inventory 类用于管理背包中的物品，包括添加、删除物品以及预加载测试物品。
+/// Inventory 类用于管理背包中的物品，包括添加、删除物品
 /// </summary>
 [System.Serializable]
+
 public class Inventory
 {
-    /// <summary>
-    /// 临时物品列表，用于在测试时预加载物品到背包中。
-    /// </summary>
-    public List<ItemData> preloadItems;
 
     /// <summary>
     /// 内部列表，存储当前背包中的物品。
     /// </summary>
     private List<Item> _items;
-
+    public static event System.Action OnInventoryChanged;
     /// <summary>
     /// 内部字典，用于快速查找物品，通过 ItemData 作为键，对应的 Item 作为值。
     /// </summary>
@@ -26,7 +23,7 @@ public class Inventory
     /// <summary>
     /// 只读列表，供外部访问背包中当前所有的物品。
     /// </summary>
-    public readonly IReadOnlyList<Item> Items;
+    public IReadOnlyList<Item> Items => _items;
 
     /// <summary>
     /// 构造函数，初始化内部物品列表、字典以及只读物品列表。
@@ -35,7 +32,6 @@ public class Inventory
     {
         _items = new List<Item>();
         _itemDictionary = new Dictionary<ItemData, Item>();
-        Items = _items;
     }
 
     /// <summary>
@@ -56,6 +52,7 @@ public class Inventory
             _items.Add(item);
             _itemDictionary.Add(itemData, item);
         }
+        OnInventoryChanged?.Invoke(); // 通知 UI 更新
     }
 
     /// <summary>
@@ -70,17 +67,18 @@ public class Inventory
             if (item.Quantity > 1)
             {
                 // 如果堆叠数量大于 1，则减少堆叠数量
-                item.RemoveFromStack();
-                return true;
+                item.RemoveFromStack(); 
             }
             else
             {
                 // 如果堆叠数量为 1，则完全移除该物品
                 _itemDictionary.Remove(itemData);
                 _items.Remove(item);
-                return true;
             }
+            OnInventoryChanged?.Invoke(); // 通知 UI 更新
+            return true;
         }
+
         return false;
     }
 }

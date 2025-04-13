@@ -127,14 +127,6 @@ public class HeroAnimationController : MonoBehaviour
         _animator.SetTrigger("EvadeTrigger");
     }
 
-    /// <summary>
-    /// 播放胜利动画（待实现）
-    /// </summary>
-    public void PlayWin()
-    {
-        // TODO: 添加胜利动画逻辑
-        // 建议使用动画触发器："WinTrigger"
-    }
     //死亡动画
     public void PlayDeath()
     {
@@ -142,34 +134,3 @@ public class HeroAnimationController : MonoBehaviour
         _animator.SetBool("isDead", true); // 添加永久死亡状态
     }
 }
-
-/* 动画状态机配置指南：
-1. 参数列表需求：
-   - Bool参数：
-     * isReady（战斗准备状态）
-     * isDefending（防御状态）
-   - Trigger参数：
-     * ItemTrigger（使用道具）
-     * AttackTrigger（普通攻击）
-     * SpecialTrigger（特殊攻击）
-     * HurtTrigger（受击反应）
-     * BuffTrigger（增益效果）
-     * MoveForward（前进移动）
-     * MoveBackward（后退移动）
-     * EvadeTrigger（闪避动作）
-
-2. 状态过渡建议：
-   - 所有Trigger类动画应设置退出时间（Exit Time）
-   - 防御状态(isDefending)应有对应循环动画
-   - 移动动画建议使用混合树处理不同方向
-
-3. 动画层级配置：
-   - 建议使用动画层处理上半身/下半身分离
-   - 例如：上层处理攻击动作，下层处理移动
-
-注意事项：
-1. 动画触发器名称必须与Animator Controller中完全一致
-2. 避免在同一个动画周期内重复触发相同Trigger
-3. 持续状态动画（Bool参数）需要明确的进入/退出逻辑
-4. 动画事件需要与Hero类中的方法正确绑定
-*/

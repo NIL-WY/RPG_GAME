@@ -25,6 +25,8 @@ public class ActionInfoPopUp : MonoBehaviour
     /// </summary>
     private TextMeshPro _text;
 
+
+    public Action OnFadeComplete; // 新增：淡出完成后通知池
     /// <summary>
     /// 弹出信息在屏幕中存在的时间（秒）。
     /// </summary>
@@ -66,6 +68,9 @@ public class ActionInfoPopUp : MonoBehaviour
     /// <param name="type">提示的类型（伤害、回血、回蓝）</param>
     public void Activate(string text, PopUpType type)
     {
+        StopAllCoroutines(); // 防止旧的 FadeOut 还在跑
+        _text.SetText(text);
+
         switch (type)
         {
             case PopUpType.Damage:
@@ -78,7 +83,11 @@ public class ActionInfoPopUp : MonoBehaviour
                 _text.color = _manaRecoverColor;
                 break;
         }
-        _text.SetText(text);
+
+        Color color = _text.color;
+        color.a = 1f; // 重置透明度
+        _text.color = color;
+
         StartCoroutine(FadeOut());
     }
 
@@ -102,5 +111,6 @@ public class ActionInfoPopUp : MonoBehaviour
 
         // 完全透明后禁用该物体
         gameObject.SetActive(false);
+        OnFadeComplete?.Invoke();
     }
 }

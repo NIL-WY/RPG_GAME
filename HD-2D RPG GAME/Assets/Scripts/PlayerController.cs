@@ -63,6 +63,7 @@ public class PlayerController : MonoBehaviour
     /// </summary>
     private void Start()
     {
+
         rb = GetComponent<Rigidbody>();
         isRuning = false;
         isWalking = false;
@@ -87,7 +88,7 @@ public class PlayerController : MonoBehaviour
             isWalking = false;
             isRuning = false;
             playerani.SetBool("isWalking", false);
-            playerani.SetBool("isRuning", false);
+            playerani.SetBool("isRunning", false);
         }
         else
         {
@@ -105,7 +106,7 @@ public class PlayerController : MonoBehaviour
             {
                 isRuning = true;
                 speed = 5f;
-                playerani.SetBool("isRuning", true);
+                playerani.SetBool("isRunning", true);
             }
             else if (isRuning == true)
             {
@@ -113,7 +114,7 @@ public class PlayerController : MonoBehaviour
                 isWalking = true;
                 speed = 2f;
                 playerani.SetBool("isWalking", true);
-                playerani.SetBool("isRuning", false);
+                playerani.SetBool("isRunning", false);
             }
         }
     }

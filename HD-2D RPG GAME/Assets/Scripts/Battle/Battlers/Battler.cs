@@ -19,8 +19,8 @@ public abstract class Battler : MonoBehaviour
 
     // 基础属性字段
     [SerializeField] protected string charName = "";         // 角色名称
-    [SerializeField] protected float currentHealth = 100f;   // 当前生命值
-    [SerializeField] protected float currentMana = 100f;     // 当前法力值
+    [SerializeField] public float currentHealth = 100f;   // 当前生命值
+    [SerializeField] public float currentMana = 100f;     // 当前法力值
 
     // 角色属性配置
     [Header("角色属性配置")]

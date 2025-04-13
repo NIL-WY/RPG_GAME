@@ -17,6 +17,7 @@ using UnityEngine;
 [RequireComponent(typeof(HeroAudioController))]
 public class Hero : Battler
 {
+    
     // 移动系统参数
     [SerializeField] float _moveOffset = 2f;       // 战斗姿态位移距离
     [SerializeField] float _moveSpeed = 9f;       // 位移动画速度
@@ -69,6 +70,7 @@ public class Hero : Battler
     /// </summary>
     protected virtual void Awake()
     {
+
         animationController = GetComponent<HeroAnimationController>();
         audioController = GetComponent<HeroAudioController>();
     }
@@ -96,6 +98,15 @@ public class Hero : Battler
     /// </remarks>
     public virtual void Attack(Enemy enemyTarget)
     {
+        if (animationController == null)
+        {
+            return;
+        }
+
+        if (enemyTarget == null)
+        {
+            return;
+        }
         OnDisplayAlert("Attack");
         rawDamage = CalculateDamage(baseDamageMultiplier);
         _dealDamageCallback = enemyTarget.TakeDamage;
@@ -125,6 +136,15 @@ public class Hero : Battler
     /// </remarks>
     public virtual void UseAbility(Enemy enemyTarget, Ability ability)
     {
+        if (animationController == null)
+        {
+            return;
+        }
+
+        if (enemyTarget == null)
+        {
+            return;
+        }
         AttackAbility attackAbility = ability as AttackAbility;
         attackAbility.Trigger(this, enemyTarget, out rawDamage);
         _dealDamageCallback = enemyTarget.TakeDamage;
@@ -180,6 +200,10 @@ public class Hero : Battler
     /// </remarks>
     public virtual void Defend()
     {
+        if (animationController == null)
+        {
+            return;
+        }
         OnDisplayAlert("Defend");
         audioController.PlayStartGuardVoice();
         isDefending = true;
@@ -212,6 +236,10 @@ public class Hero : Battler
     /// </remarks>
     public override void TakeDamage(float rawDamage)
     {
+        if (animationController == null)
+        {
+            return;
+        }
         if (Evade() && !isDefending)
         {
             audioController.PlayEvadeVoice();
@@ -253,6 +281,10 @@ public class Hero : Battler
     /// </remarks>
     public override void UseItem(Item item, Battler user)
     {
+        if (animationController == null)
+        {
+            return;
+        }
         OnDisplayAlert(item.Name);
         item.Use(user);
         audioController.PlayItemUseVoice();
@@ -368,6 +400,22 @@ public class Hero : Battler
             yield return null;
         }
         animationController.PlayIdle();
+    }
+    private void OnDestroy()
+    {
+        // 解除所有动画事件绑定
+        if (animationController != null)
+        {
+            animationController.PlayIdle();
+            animationController = null;
+        }
+
+        // 取消所有UI事件订阅
+        OnHealthChanged = null;
+        OnManaChanged = null;
+        OnTurnTimeChanged = null;
+        OnStartTurn = null;
+        OnEndTurn = null;
     }
     #endregion
 }

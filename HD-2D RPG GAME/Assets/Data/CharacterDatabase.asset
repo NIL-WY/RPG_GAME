@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7202b0112b280408ba9b9d4c4fe235, type: 3}
+  m_Name: CharacterDatabase
+  m_EditorClassIdentifier: 
+  heroes:
+  - id: Fox
+    prefab: {fileID: 6183194970535629204, guid: cee0d94bda1949e44a630a006283a75d,
+      type: 3}
+    description: 111
+  - id: Dual
+    prefab: {fileID: 3833591602121795807, guid: bd40cc57654a4854da67efac4d62b2a4,
+      type: 3}
+    description: 111
+  enemies:
+  - id: Crow
+    prefab: {fileID: 1169946812716478650, guid: 1f8f0bd4c88312f4faceae97c9743cd4,
+      type: 3}
+    description: 111
+  - id: Blobred
+    prefab: {fileID: 3019586966074134732, guid: dc1e0309e22f3a444bcf47fe4d9e325d,
+      type: 3}
+    description: 111
+  - id: Blobblue
+    prefab: {fileID: 7775683458920535402, guid: 6204e5c8bd080694e89a3017f6ff088c,
+      type: 3}
+    description: 111
+  - id: StoneGolem
+    prefab: {fileID: 6594269717934399351, guid: 83d0b3933ab1feb4c85c20ae178859c2,
+      type: 3}
+    description: 111

@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Trigger : MonoBehaviour
 {
     private const string BATTLE = "Battle";
+    AsyncOperation async;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,20 @@ public class Trigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("转到战斗场景");
-        SceneManager.LoadScene(BATTLE);
+        StartBattle();
     }
+    void StartBattle()
+    {
+        var config = new BattleConfig
+        {
+            heroIDs = new[] { "Fox", "Dual" }, // 最多2个
+            enemyIDs = new[] { "Crow", "Crow" },   // 最多3个
+            keepHeroCorpse = true
+        };
+
+        BattleSetupManager.Instance.PrepareBattle(config);
+        async = SceneManager.LoadSceneAsync(BATTLE);
+        async.allowSceneActivation = true;
+    }
+    
 }

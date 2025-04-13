@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 /// <summary>
@@ -10,6 +11,7 @@ using UnityEngine.Serialization;
 /// </summary>
 public class PopUpPooler : MonoBehaviour
 {
+
     /// <summary>
     /// 单例实例，便于全局访问。
     /// </summary>
@@ -39,6 +41,10 @@ public class PopUpPooler : MonoBehaviour
     /// 弹出位置在 Z 轴上的偏移量，用于美观地展示文本。
     /// </summary>
     [SerializeField] private float _offsetPositionZ;
+
+    [SerializeField] private float _randomOffsetX = 0.2f;
+    [SerializeField] private float _randomOffsetY = 0.2f;
+    [SerializeField] private float _randomOffsetZ = 0.2f;
 
     /// <summary>
     /// 构造函数中初始化对象池列表。
@@ -110,8 +116,17 @@ public class PopUpPooler : MonoBehaviour
     private void TriggerPopUp(Battler battler, string message, PopUpType type)
     {
         ActionInfoPopUp popUp = GetPooledPopUp();
-        Vector3 offsetPosition = new Vector3(_offsetPositionX, 0, _offsetPositionZ);
-        popUp.transform.position = battler.transform.position + offsetPosition;
+
+        Vector3 baseOffset = new Vector3(_offsetPositionX, 0, _offsetPositionZ);
+        Vector3 randomOffset = new Vector3(
+            UnityEngine.Random.Range(-_randomOffsetX, _randomOffsetX),
+            UnityEngine.Random.Range(-_randomOffsetY, _randomOffsetY),
+            UnityEngine.Random.Range(-_randomOffsetZ, _randomOffsetZ)
+        );
+
+        Vector3 finalPosition = battler.transform.position + baseOffset + randomOffset;
+
+        popUp.transform.position = finalPosition;
         popUp.gameObject.SetActive(true);
         popUp.Activate(message, type);
     }

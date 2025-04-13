@@ -6,13 +6,22 @@ using UnityEngine;
 /// 队伍管理器类，管理玩家的物品背包（Inventory）
 /// 并实现单例模式，确保游戏中始终只有一个 PartyManager 实例。
 /// </summary>
+
 public class PartyManager : MonoBehaviour
 {
+
+
     /// <summary>
     /// 单例实例，确保全局唯一。
     /// </summary>
-    public static PartyManager Instance;
+    public static PartyManager Instance { get; private set; }
+    public PartyData currentParty;
 
+
+    public void SaveFormation(Vector3[] positions)
+    {
+        currentParty.formationPositions = positions;
+    }
     /// <summary>
     /// 玩家队伍的物品背包实例。
     /// </summary>
@@ -34,32 +43,16 @@ public class PartyManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(this.gameObject); // 场景切换时保留该 GameObject
+            DontDestroyOnLoad(this.gameObject);
+            // 初始化队伍数据，初始只有玩家角色
+            currentParty = new PartyData { memberIDs = new string[] { "Fox" } };
+            Inventory = new Inventory(); // 初始化背包数据
         }
         else
         {
-            Destroy(this.gameObject); // 如果已有实例，则销毁当前重复实例
+            Destroy(this.gameObject);
         }
+
     }
 
-    /// <summary>
-    /// 在游戏开始时调用，用于加载预设的测试物品。
-    /// </summary>
-    void Start()
-    {
-        PreloadItems();
-    }
-
-    /// <summary>
-    /// 临时方法：将预设的物品数据加载进玩家的物品背包中。
-    /// 用于测试或初始化背包内容。
-    /// </summary>
-    private void PreloadItems()
-    {
-        foreach (var itemData in Inventory.preloadItems)
-        {
-            if (itemData == null) continue;
-            Inventory.AddItem(itemData);
-        }
-    }
 }
